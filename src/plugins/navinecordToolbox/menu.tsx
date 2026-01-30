@@ -299,7 +299,7 @@ function buildCustomPluginEntries() {
 export function renderPopout(onClose: () => void) {
     return (
         <Menu.Menu
-            navId="vc-toolbox"
+            navId="nc-toolbox"
             onClose={onClose}
         >
             <Menu.MenuItem
